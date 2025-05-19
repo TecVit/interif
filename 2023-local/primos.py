@@ -1,13 +1,15 @@
 def main():
+    import math
+    
     n = int(input())
     p = []
 
     for i in range(2, n + 1):
         primo = True
-        for j in range(2, 12):
+        for j in range(2, int(math.sqrt(i)) + 1):
             if i % j == 0 and i != j:
                 primo = False
-                continue
+                break
         
         if primo:
             p.append(i)
