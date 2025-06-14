@@ -2,8 +2,6 @@
 
 def main():
     x, y = map(int, input().split())
-    # X = Fileiras
-    # Y = Cadeiras na Fileira
     
     menor = 8
     cadeira = 0
@@ -14,9 +12,6 @@ def main():
     for i in range(x):
         cinema.append([0] + list(map(int, input().split())) + [0])
     cinema.append([0] * (y + 2))
-
-    # for row in cinema:
-    #     print(row)
 
     cadeiras = list()
 

@@ -1,30 +1,7 @@
+# Quase completo
+
 def main():
     n = int(input())
-
-    # 1 Bola (1) or (n)
-    # 1 Possibilidade
-
-    # 2 Bola
-    # 1 Bola + 1 Bola (1)
-    # 2 Bolas (1 < N < 4) (1)
-    # 2 Possibilidades
-
-    # 3 Bolas
-    # 1 Bola + 1 Bola + 1 Bola (1)
-    # 1 Bola + 2 Bolas (n - 1)
-    # 2 Bolas + 1 Bola (n - 1)
-    # 3 Bolas (1 < N < 4) (1)
-    # 4 Possibilidades
-
-    # 4 Bolas
-    # 1 Bola + 1 Bola + 1 Bola + 1 Bola (1)
-    # 1 Bola + 1 Bola + 2 Bolas (n - 1)
-    # 2 Bolas + 1 Bola + 1 Bola (n - 1)
-    # 1 Bola + 2 Bolas + 1 Bola (n - 1)
-    # 2 Bolas + 2 Bolas (n - 2)
-    # 1 Bola + 3 Bolas (n - 3)
-    # 3 Bolas + 1 Bola (n - 3)
-    # 7 Possibilidades
 
     dp = [0] * (n + 1)
     dp[0] = 1
