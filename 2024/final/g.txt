@@ -1,0 +1,9 @@
+6
+ABCDEF
+AAACB
+2
+
+2
+AB
+BAAABAB
+2.5
